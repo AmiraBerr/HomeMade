@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AjouterProduitActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/id_text_nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom"
+            android:textSize="18dp"
+            android:textColor="@color/colorYellow"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="30dp"
+
+            />
+
+        <EditText
+            android:id="@+id/id_edit_nom"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:hint="nom de votre produit"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_alignBottom="@+id/id_text_nom"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:id="@+id/id_text_categ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categorie"
+            android:textSize="18dp"
+            android:textColor="@color/colorYellow"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="30dp"
+
+            />
+
+        <Spinner
+            android:id="@+id/id_spinner_categ"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="120dp"
+            >
+        </Spinner>
+
+        <TextView
+            android:id="@+id/id_text_prix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prix"
+            android:textSize="18dp"
+            android:textColor="@color/colorYellow"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="30dp"
+
+            />
+
+        <EditText
+            android:id="@+id/id_edit_prix"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:hint="prix de votre produit"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_alignBottom="@+id/id_text_prix"
+            android:textSize="18dp"
+            android:inputType="number"
+            />
+
+        <TextView
+            android:id="@+id/id_text_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="18dp"
+            android:textColor="@color/colorYellow"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="30dp"
+
+            />
+
+        <EditText
+            android:id="@+id/id_edit_desc"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:hint="(facultatif)"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_alignBottom="@+id/id_text_desc"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/id_edit_prix"
+            android:layout_alignBottom="@+id/id_edit_prix"
+            android:layout_alignEnd="@+id/id_edit_prix"
+            android:layout_alignRight="@+id/id_edit_prix"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:text="DA"
+            android:textColor="@color/colorLightBlack"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:id="@+id/id_img_prod1"
+            android:background="@drawable/addimg1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="150dp"
+            android:onClick="b1"
+
+            />
+
+        <ImageView
+            android:id="@+id/id_aff_prod1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="300dp"
+            android:visibility="invisible"
+            />
+
+        <ImageButton
+            android:id="@+id/id_img_prod2"
+            android:background="@drawable/addimg1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="70dp"
+            android:visibility="invisible"
+            android:onClick="b2"
+            />
+
+        <ImageView
+            android:id="@+id/id_aff_prod2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="70dp"
+            android:visibility="invisible"/>
+
+
+
+        <ImageButton
+            android:id="@+id/id_img_prod3"
+            android:background="@drawable/addimg1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="140dp"
+            android:visibility="invisible"
+            android:onClick="b3"
+            />
+
+        <ImageView
+            android:id="@+id/id_aff_prod3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="140dp"
+            android:visibility="invisible"/>
+
+        <ImageButton
+            android:id="@+id/id_img_prod4"
+            android:background="@drawable/addimg1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="210dp"
+            android:visibility="invisible"
+            android:onClick="b4"
+            />
+
+        <ImageView
+            android:id="@+id/id_aff_prod4"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="210dp"
+            android:visibility="invisible"/>
+
+
+        <ImageButton
+            android:id="@+id/id_img_prod5"
+            android:background="@drawable/addimg1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="280dp"
+            android:visibility="invisible"
+            android:onClick="b5"
+            />
+
+        <ImageView
+            android:id="@+id/id_aff_prod5"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="280dp"
+            android:visibility="invisible"
+            />
+
+
+        <Button
+            android:id="@+id/id_aj_prod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valider"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="420dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/custm_button2"
+            android:onClick="valider"
+            />
+
+
+        <Button
+            android:id="@+id/id_annuler_prod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Annuler"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="420dp"
+            android:layout_marginRight="60dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/custm_button"
+            android:onClick="annuler"
+            />
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

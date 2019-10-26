@@ -1,0 +1,71 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">Homemade</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string-array name="wilaya">
+
+        <item> Adrar</item>
+        <item>Chlef</item>
+        <item>Laghouat</item>
+        <item>Oum El Bouaghi</item>
+        <item>Batna</item>
+        <item>Béjaia</item>
+        <item>Biskra</item>
+        <item>Béchar</item>
+        <item>Blida</item>
+        <item>Bouira</item>
+        <item>Tamanrasset</item>
+        <item>Tébessa</item>
+        <item>Tlemcen</item>
+        <item>Tiaret</item>
+        <item>Tizi Ouzou</item>
+        <item>Alger</item>
+        <item>Djelfa</item>
+        <item>Jijel</item>
+        <item>Sétif</item>
+        <item>Saïda</item>
+        <item>Skikda</item>
+        <item>Sidi Bel Abbès</item>
+        <item>Annaba</item>
+        <item>Guelma</item>
+        <item>Constantine</item>
+        <item>Médéa</item>
+        <item>Mostaganem</item>
+        <item>MSila</item>
+        <item>Mascara</item>
+        <item>Ouargla</item>
+        <item>Oran</item>
+        <item>El Bayadh</item>
+        <item>Illizi</item>
+        <item>Bordj Bou Arreridj</item>
+        <item>Boumerdès</item>
+        <item>El Tarf</item>
+        <item>Tindouf</item>
+        <item>Tissemsilt</item>
+        <item>El Oued</item>
+        <item>Khenchela</item>
+        <item>Souk Ahras</item>
+        <item>Tipaza</item>
+        <item>Mila</item>
+        <item>Aïn Defla</item>
+        <item>Naâma</item>
+        <item>Aïn Témouchent</item>
+        <item>Ghardaia</item>
+        <item>Relizane</item>
+    </string-array>
+
+    <string-array name="categ">
+        <item>Accessoires</item>
+        <item>Beauté</item>
+        <item>Couture</item>
+        <item>Cuisine</item>
+        <item>Décoration</item>
+    </string-array>
+</resources>

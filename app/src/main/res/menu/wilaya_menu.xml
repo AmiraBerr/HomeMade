@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+            <item
+                android:title="Adrar"
+                app:showAsAction="always"/>
+            <item
+                android:title="Chlef"
+                app:showAsAction="always"/>
+            <item
+                android:title="Laghouat"
+                app:showAsAction="always"/>
+            <item
+                android:title="Oum El Bouaghi"
+                app:showAsAction="always"/>
+            <item
+                android:title="Batna"
+                app:showAsAction="always"/>
+            <item
+                android:title="Béjaia"
+                app:showAsAction="always"/>
+            <item
+                android:title="Biskra"
+                app:showAsAction="always"/>
+            <item
+                android:title="Béchar"
+                app:showAsAction="always"/>
+            <item
+                android:title="Blida"
+                app:showAsAction="always"/>
+            <item
+                android:title="Bouira"
+                app:showAsAction="always"/>
+            <item
+                android:title="Tamanrasset"
+                app:showAsAction="always"/>
+            <item
+                android:title="Tébessa"
+                app:showAsAction="always"/>
+            <item
+                android:title="Tlemcen"
+                app:showAsAction="always"/>
+            <item
+                android:title="Tiaret"
+                app:showAsAction="always"/>
+            <item
+                android:title="Tizi Ouzou"
+                app:showAsAction="always"/>
+            <item
+                android:title="Alger"
+                app:showAsAction="always"/>
+            <item
+                android:title="Djelfa"
+                app:showAsAction="always"/>
+            <item
+                android:title="Jijel"
+                app:showAsAction="always"/>
+            <item
+                android:title="Sétif"
+                app:showAsAction="always"/>
+            <item
+                android:title="Saïda"
+                app:showAsAction="always"/>
+            <item
+                android:title="Skikda"
+                app:showAsAction="always"/>
+            <item
+                android:title="Sidi Bel Abbès"
+                app:showAsAction="always"/>
+            <item
+                android:title="Annaba"
+                app:showAsAction="always"/>
+            <item
+                android:title="Guelma"
+                app:showAsAction="always"/>
+            <item
+                android:title="Constantine"
+                app:showAsAction="always"/>
+            <item
+                android:title="Médéa"
+                app:showAsAction="always"/>
+            <item
+                android:title="Mostaganem"
+                app:showAsAction="always"/>
+            <item
+                android:title="MSila"
+                app:showAsAction="always"/>
+            <item
+                android:title="Mascara"
+                app:showAsAction="always"/>
+            <item
+                android:title="Ouargla"
+                app:showAsAction="always"/>
+            <item
+                android:title="Oran"
+                app:showAsAction="always"/>
+            <item
+                android:title="El Bayadh"
+                app:showAsAction="always"/>
+            <item
+                android:title="Illizi"
+                app:showAsAction="always"/>
+            <item
+                android:title="Bordj Bou Arreridj"
+                app:showAsAction="always"/>
+            <item
+                android:title="Boumerdès"
+                app:showAsAction="always"/>
+            <item
+                android:title="El Tarf"
+                app:showAsAction="always"/>
+            <item
+                android:title="Tindouf"
+                app:showAsAction="always"/>
+            <item
+                android:title="Tissemsilt"
+                app:showAsAction="always"/>
+            <item
+                android:title="El Oued"
+                app:showAsAction="always"/>
+            <item
+                android:title="Khenchela"
+                app:showAsAction="always"/>
+            <item
+                android:title="Souk Ahras"
+                app:showAsAction="always"/>
+            <item
+                android:title="Tipaza"
+                app:showAsAction="always"/>
+            <item
+                android:title="Mila"
+                app:showAsAction="always"/>
+            <item
+                android:title="Aïn Defla"
+                app:showAsAction="always"/>
+            <item
+                android:title="Naâma"
+                app:showAsAction="always"/>
+            <item
+                android:title="Aïn Témouchent"
+                app:showAsAction="always"/>
+            <item
+                android:title="Ghardaia"
+                app:showAsAction="always"/>
+            <item
+                android:title="Relizane"
+                app:showAsAction="always"/>
+
+    
+
+</menu>

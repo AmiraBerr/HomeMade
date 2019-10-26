@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageButton
+            android:id="@+id/id_img_register"
+            android:background="@drawable/ic_add_a_photo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:onClick="ajoute_img_profile"
+
+            />
+
+        <ImageView
+            android:id="@+id/id_aff_profile"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nom d'utilisateur"
+            android:textSize="20sp"
+            android:id="@+id/id_edit_username"
+            android:inputType="text"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/id_img_register"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/id_edit_username"
+            android:layout_marginTop="30dp"
+            android:hint="Choisir wilaya"
+            android:id="@+id/id_spinner_wilaya"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+
+            >
+
+        </Spinner>
+
+
+        <EditText
+
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:hint="Mobile"
+            android:id="@+id/id_edit_tel"
+            android:layout_below="@+id/id_spinner_wilaya"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            />
+
+        <EditText
+
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:hint="Email"
+            android:id="@+id/id_edit_email"
+            android:layout_below="@+id/id_edit_tel"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            />
+
+
+        <EditText
+
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:hint="Mot de Passe"
+            android:id="@+id/id_edit_mdp"
+            android:layout_below="@+id/id_edit_email"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            />
+
+
+        <EditText
+
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp"
+            android:hint="Confirmer Mot de Passe"
+            android:id="@+id/id_edit_nvmdp"
+            android:layout_below="@+id/id_edit_mdp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S'inscrire"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/title_color"
+            android:textAllCaps="false"
+            android:id="@+id/id_sinscrire"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/id_edit_nvmdp"
+            android:background="@drawable/button_rounded"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Annuler"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/title_color"
+            android:textAllCaps="false"
+            android:id="@+id/id_annuler"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_below="@+id/id_sinscrire"
+            android:background="@drawable/button_rounded"
+            android:onClick="reset"
+            />
+
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
